@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+<section class="component">
+  <div class="component_text">
+    <h1 class="component_title">Learn to code by watching others</h1>
+    <p class="component_description">
+      See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable. 
+    </p>
+    
+  </div>
+
+  <div class="component_form"> 
+    <div class="price">
+      <p class="price_title"><span id="day">Try it free 7 days</span> then $20/mo. thereafter</p>
+    </div>
+   
+   <div class="card">
+     <form>
+      <div class="form_item">
+        <input id="name" type="text" placeholder="First Name">
+        <div class="error">
+        <p class="error_text"><i>First name can not be empty</i></p>
+        </div>
+      </div>
+
+      <div class="form_item">
+        <input id="lastname" type="text" placeholder="Last Name">
+        <div class="error">
+          <p class="error_text"><i>Last name can not be empty</i></p>
+        </div>
+      </div>
+    
+      <div class="form_item">
+        <input id="email_" type="text" placeholder="Email Address">
+        <div class="error">
+          <p class="error_text"><i>Looks like this is not an email</i/p>
+        </div>
+      </div>
+
+      <div class="form_item">
+      <input id="password_" type="password" placeholder="Password">
+      <div class="error">
+        <p class="error_text"><i>Password can not be empty</i></p>
+      </div>
+     </div>
+      <button id="submittion" type="" >CLAIM YOUR FREE TRIAL</button>
+    </form>
+    <p class="form_text">By clicking the button, you are agreeing to our <spam id="form_term">Terms and Services</spam></p>
+   </div>    
+  </div>
+</section>
+
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/MehmetCanBOZ">Mehmet Can BOZ</a>.
+    </p>
+  </footer>
+  <script src="js/index.js"></script>
+</body>
+</html>
