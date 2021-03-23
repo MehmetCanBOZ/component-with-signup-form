@@ -138,7 +138,7 @@ input{
     border: 1px solid var(--grayishBlue);
 }
 
-input:focus{
+input:focus,input:hover{
     border: 1px solid black;
 }
 button{

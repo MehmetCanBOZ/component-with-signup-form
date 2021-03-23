@@ -32,37 +32,41 @@
     </div>
    
    <div class="card">
-     <form>
+     <form action="/">
       <div class="form_item">
-        <input id="name" type="text" placeholder="First Name">
+        <label for="name"></label>
+        <input id="name" type="text" name="name" placeholder="First Name">
         <div class="error">
         <p class="error_text"><i>First name can not be empty</i></p>
         </div>
       </div>
 
       <div class="form_item">
-        <input id="lastname" type="text" placeholder="Last Name">
+        <label for="lastname"></label>
+        <input id="lastname" type="text" name="lastname" placeholder="Last Name">
         <div class="error">
           <p class="error_text"><i>Last name can not be empty</i></p>
         </div>
       </div>
     
       <div class="form_item">
-        <input id="email_" type="text" placeholder="Email Address">
+        <label for="email"></label>
+        <input id="email_" type="text" name="email" placeholder="Email Address">
         <div class="error">
           <p class="error_text"><i>Looks like this is not an email</i/p>
         </div>
       </div>
 
       <div class="form_item">
-      <input id="password_" type="password" placeholder="Password">
+        <label for="password"></label>
+      <input id="password_" type="password" name="password" placeholder="Password">
       <div class="error">
         <p class="error_text"><i>Password can not be empty</i></p>
       </div>
      </div>
-      <button id="submittion" type="" >CLAIM YOUR FREE TRIAL</button>
+      <button id="submittion" type="submit">CLAIM YOUR FREE TRIAL</button>
     </form>
-    <p class="form_text">By clicking the button, you are agreeing to our <spam id="form_term">Terms and Services</spam></p>
+    <p class="form_text">By clicking the button, you are agreeing to our <span id="form_term">Terms and Services</span></p>
    </div>    
   </div>
 </section>
